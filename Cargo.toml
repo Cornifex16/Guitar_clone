@@ -1,0 +1,11 @@
+[package]
+name = "guitar_rust" # <--- ESTE NOMBRE ES EL QUE USAS EN EL 'use' DE main.rs
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Usa la versión más reciente compatible (revisa crates.io)
+bevy = "0.13"   # O la versión que estés usando
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+# bevy_kira_audio = "0.19" # Descomenta cuando integres el audio real
